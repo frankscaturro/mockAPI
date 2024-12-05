@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "@context": "https://schema.org",
+      "@type": "items",
+      "id": "1",
+      "name": "pencil",
+      "description": "write with it"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "items",
+      "id": "2",
+      "name": "notebook",
+      "description": "used to take notes"
+    },
+   {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "15",
+      "name": "Tom Smith",
+      "description": "person#1",
+      "itemId": "2"
+    }
+  ],
+  "collection": {
+    "@context": "https://schema.org/",
+    "@type": "Collection",
+    "name": "Frank's API",
+    "creator": "Frank",
+    "about": "A collection of items or things or stuff",
+    "url": "https://www.frankkkkk.info"
+  }
+}
